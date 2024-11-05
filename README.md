@@ -1,6 +1,6 @@
 # InfoNCE Loss - PyTorch Implementation
 
-This repository contains a PyTorch implementation of the InfoNCE loss. The implementation supports both unsupervised and supervised InfoNCE loss.
+The **InfoNCE loss** (Information Noise-Contrastive Estimation) is commonly used in contrastive learning to maximize the similarity between positive pairs while minimizing it between negative pairs. This repository provides a PyTorch implementation supporting both unsupervised and supervised modes.
 
 ## Classes
 
