@@ -4,7 +4,7 @@
 import torch
 import torch.nn.functional as F
 
-class InfoNCELoss(torch.nn.Module):
+class InfoNCE(torch.nn.Module):
     def __init__(self, temperature=0.5):
         super(InfoNCELoss, self).__init__()
         self.temperature = temperature
