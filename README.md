@@ -20,10 +20,10 @@ pip install infonce
 ### Unsupervised InfoNCE
 
 ```python
-from infonce import InfoNCELoss
+from infonce import InfoNCE
 
 # Example usage
-loss_fn = InfoNCELoss(temperature=0.07)
+loss_fn = InfoNCE(temperature=0.07)
 # augmentation1 and augmentation2 are two different augmentations of the same batch
 features1 = model(augmentations1) 
 features2 = model(augmentations2) 
@@ -34,10 +34,10 @@ loss = loss_fn(features)
 ### Supervised InfoNCE
 
 ```python
-from infonce import SupervisedInfoNCELoss
+from infonce import SupervisedInfoNCE
 
 # Example usage
-loss_fn = SupervisedInfoNCELoss(temperature=0.07)
+loss_fn = SupervisedInfoNCE(temperature=0.07)
 loss = loss_fn(features, labels)
 ```
 
